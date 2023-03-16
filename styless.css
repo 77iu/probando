@@ -28,11 +28,11 @@ header{
     z-index: 5;
 }
 .botones{
-    /* background-color: red; */
-    margin: 0 10px;
+
+    /* margin: 0 10px; */
     height: auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
 }
 .botones a{
@@ -40,7 +40,7 @@ header{
     border: 1px solid gray;
     border-radius: 3px;
     padding: 5px;
-   display: inline-block;
+   /* display: inline-block; */
    margin: 3px 
 }
 
@@ -55,7 +55,9 @@ header{
     .logo{
         font-size: 30px;
     } 
-  
+  .botones{
+    width: 100%;
+  }
     header{
         margin: auto;
         width: 100%;
